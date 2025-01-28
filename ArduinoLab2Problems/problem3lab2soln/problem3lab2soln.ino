@@ -66,9 +66,9 @@ void setup() {
     }
     delay(500);
   }
-  digitalWrite(GREEN, LOW);
-  digitalWrite(RED, LOW);
-  digitalWrite(BLUE, LOW);
+  digitalWrite(GREEN, HIGH);
+  digitalWrite(RED, HIGH);
+  digitalWrite(BLUE, HIGH);
   free(resultArray);
 }
 
