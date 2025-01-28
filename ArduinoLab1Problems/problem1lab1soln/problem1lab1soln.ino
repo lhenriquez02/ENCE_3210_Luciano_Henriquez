@@ -24,7 +24,7 @@ void setup() {
   for (int i = 0; i < 512l; i++){
     unsigned long result = twiceSquare(i);
     integerArray[i] = result;
-    Serial.print(result);
+    Serial.println(result);
 
   }
 
