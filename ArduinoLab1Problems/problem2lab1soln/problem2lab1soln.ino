@@ -13,7 +13,7 @@ void setup() {
   Serial.begin(9600);
   for (int i = 0; i < 361; i++){
     double input  = takeCosine(i);
-    cosineArray[i] = takeCosine(i);
+    cosineArray[i] = input;
     Serial.println(input, 2);
   }
 }
