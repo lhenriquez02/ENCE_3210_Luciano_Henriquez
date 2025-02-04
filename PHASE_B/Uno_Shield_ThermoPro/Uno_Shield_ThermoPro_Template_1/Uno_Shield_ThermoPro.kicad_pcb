@@ -82,7 +82,7 @@
 		(aux_axis_origin 100 100)
 		(grid_origin 100 100)
 		(pcbplotparams
-			(layerselection 0x0000030_80000001)
+			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -114,9 +114,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -3124,7 +3124,7 @@
 		(uuid "3500e757-5e60-4348-85d8-cfaf39a97805")
 		(at 107 89.5)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1ea34a99-c7f8-4168-a958-3ab166cecbac")
@@ -3136,7 +3136,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3cf7df2c-3799-4976-8434-adcb957e4e40")
@@ -3148,7 +3148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "527181f9-ef38-49c9-9d16-1ad76ecc10be")
@@ -3160,7 +3160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d65594f1-578c-4f26-974e-877646eba6a8")
@@ -3172,7 +3172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa6954ff-1f5b-443d-85a7-875355b799c6")
@@ -7113,7 +7113,19 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Temp Sensor\n"
+	(gr_text "TEMP SENSOR\n"
+		(at 125.5 53 0)
+		(layer "F.SilkS")
+		(uuid "d178f4d6-6d52-41a0-9505-2ff0e718e356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IMU\n"
 		(at 103 51.5 0)
 		(layer "F.SilkS")
 		(uuid "d6dde5b5-2720-4833-9a48-a293105c499c")
