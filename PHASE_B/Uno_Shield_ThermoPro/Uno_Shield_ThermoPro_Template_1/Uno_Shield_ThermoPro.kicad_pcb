@@ -7089,8 +7089,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DIsplay\n"
-		(at 101.5 68.5 0)
+	(gr_text "OLED TEMU 096\n"
+		(at 115.5 93 0)
 		(layer "F.SilkS")
 		(uuid "5eaaa38e-56a1-47f2-b834-2026d162b8f7")
 		(effects
@@ -7113,19 +7113,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TEMP SENSOR\n"
-		(at 125.5 53 0)
-		(layer "F.SilkS")
-		(uuid "d178f4d6-6d52-41a0-9505-2ff0e718e356")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "IMU\n"
+	(gr_text "MPU 6050\n"
 		(at 103 51.5 0)
 		(layer "F.SilkS")
 		(uuid "d6dde5b5-2720-4833-9a48-a293105c499c")
