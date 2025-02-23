@@ -28,7 +28,7 @@
 #define LOCK_BUTTON 3
 #define UNITS_BUTTON 4
 #define TIMER1_VALUE 62500
-#define UNIT_DELAY 3000
+#define UNIT_DELAY 1500
 #define ONE_WIRE_BUS 8
 #define OUTPUT_READABLE_ACCELGYRO
 
@@ -42,7 +42,7 @@ int16_t ax, ay, az;
 int16_t gx, gy, gz;
 
 volatile unsigned long savedTime = 0;
-const unsigned long givenDelay = 500;
+const unsigned long givenDelay = 250;
 
 volatile unsigned long savedTime1 = 0;
 volatile unsigned long savedTime2 = 0;
