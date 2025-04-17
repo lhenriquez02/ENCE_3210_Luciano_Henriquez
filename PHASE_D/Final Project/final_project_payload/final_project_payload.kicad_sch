@@ -3954,6 +3954,16 @@
 		)
 		(uuid "e961566a-9d66-4ebf-8ddb-b9149abc2a1e")
 	)
+	(text "LUCIANO HENRIQUEZ\n"
+		(exclude_from_sim no)
+		(at 187.706 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1d75d5f-2798-432f-97d4-987ca133f8c2")
+	)
 	(text "12\n"
 		(exclude_from_sim no)
 		(at 72.644 38.354 0)
